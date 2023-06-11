@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../asets/back.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    height: 87vh;
+    border: 5px solid rgb(110, 102, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    background: none;
+    
+   /* border: none;
+    text-decoration: underline;
+    outline: none;*/
+}
+.greeting{
+    font-family: 'Courier New';
+    font-size: 100px;
+    color: rgba(3, 91, 107, 0.87);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
